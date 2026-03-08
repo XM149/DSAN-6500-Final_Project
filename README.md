@@ -1,4 +1,3 @@
-# DSAN-6500-Final_Project
 # Food Object Detection using COCO Subset
 
 ## 1. Problem Framing and Scope
