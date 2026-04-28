@@ -24,7 +24,6 @@ CNN Baseline: Fine-tuned Faster R-CNN model pretrained on COCO.
 
 | Class    | Precision | Recall | F1-score | Support |
 | -------- | --------- | ------ | -------- | ------- |
-| banana   | 0.18      | 0.18   | 0.18     | 76      |
 | apple    | 0.19      | 0.19   | 0.19     | 48      |
 | sandwich | 0.12      | 0.11   | 0.12     | 36      |
 | orange   | 0.29      | 0.26   | 0.28     | 57      |
@@ -41,6 +40,19 @@ Macro-average F1-score: 0.21
 CNN Baseline Performance (Faster R-CNN)
 
 COCO evaluation metrics (on bounding box detection):
+
+| Class ID | Class Name | Precision | Recall | F1-score | Support |
+| -------- | ---------- | --------- | ------ | -------- | ------- |
+| 1        | apple      | 0.1316    | 0.0820 | 0.1010   | 61      |
+| 2        | sandwich   | 0.3243    | 0.4138 | 0.3636   | 29      |
+| 3        | orange     | 0.2600    | 0.2549 | 0.2574   | 51      |
+| 4        | broccoli   | 0.4318    | 0.3455 | 0.3838   | 55      |
+| 5        | carrot     | 0.3243    | 0.2105 | 0.2553   | 57      |
+| 6        | hot dog    | 0.7500    | 0.2308 | 0.3529   | 13      |
+| 7        | pizza      | 0.6364    | 0.4930 | 0.5556   | 71      |
+| 8        | donut      | 0.6415    | 0.4198 | 0.5075   | 81      |
+| 9        | cake       | 0.8000    | 0.3137 | 0.4507   | 51      |
+
 
 | Metric                         | Value |
 | ------------------------------ | ----- |
